@@ -1,0 +1,35 @@
+- Gradient descent is most popular algo to update the weights of neural network.
+
+
+
+- Decisions has to be taken to optimize one or more objectives
+under some prescribed set of circumstances.
+
+- Numerical optimisation: Decision making, Quantitative, objectives, variables,
+constraint.
+
+1) Quantify elements: objectives (goal), variables(decision we make, ex: to select or not), constraints, parameters(values fixed in problem)
+2) Solution procedure: Solver, Algo, Metaheuristics
+3) Evaluate results: tables, plots
+
+- When using heuristics, we know the underlying problem and thus use some 
+some features of the given problem. They are problem dependent.
+Tailored solution that work for specific problem types.
+
+- Problem in metaheuristics are problem independent. We know nothing about the underlying problem
+we want to solve.They are designed to be general frameworks that can be applied to 
+various types of problem. Thus they have broader applicability.
+
+Pyomo:
+-----
+- open source python based algebraic modeling language.
+- Creates the structure of optimisation models used by solvers
+- Model is core element here. All elements are included in model 
+as attributes
+- Two alternatives: ConcreteModel(data comes in as elements are created), AbstractModel(Data comes in later)
+
+
+
+
+
+

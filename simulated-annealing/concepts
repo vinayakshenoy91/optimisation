@@ -1,0 +1,16 @@
+- Used when problem has exponential(or factorial) number of possible states - 
+so the search space is to large to do an exhaustive search.
+- Tries to avoid local optimum and finds global optimum instead.
+- TSP and TrainingNN
+- Temperature (T) reduces over time. When temp is high, we should accept bad moves in the 
+beginning of the algorithm and later on reduce the probability of bad moves.
+If T is low, keep accepting good moves. T controls what states to accept and consider - may even 
+accept bad states as well.
+- At each iteration, a new candidate state is generated and its distance from 
+the current point is proprotional to temperature.
+- If new point is better, it replaces the current point as the actual best so far.
+- It is possible to accept and move fwd with a worst state and the probability of 
+doing so is directly dependent on T and it may help to find a new search region.
+
+Steps followed:
+---------------

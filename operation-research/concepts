@@ -1,0 +1,34 @@
+- Operations research: Do careful allocation of resources to achieve an objective.
+(Mgmt science, Decision science, Optimisation method/algo, mathematical programming)
+
+- Resources and objectives are two importatnt parts of operations research.
+
+- OR tools will provide you some suggestions  and using these suggestion make some decisions.
+
+Descriptive analytics:
+---------------------
+- Taking decision based on past trends
+
+Predictive analytics:
+---------------------
+- Using historical data, identify what might happen using prediction models
+
+Prescriptive analytics:
+------------------------
+- Same as predictive + make some suggestions
+
+
+Process of Decision making:
+----------------------------
+- Data analysis: Collect info and understand the problem
+- OR: Allocate resource and solve the problem
+
+
+Usecases:
+---------
+- Multiproduct inventory - How much to stock at store?Given 
+- Portfolio optimisation
+- Order decision
+- Airport resource allocation
+- Slots promised to customer
+
